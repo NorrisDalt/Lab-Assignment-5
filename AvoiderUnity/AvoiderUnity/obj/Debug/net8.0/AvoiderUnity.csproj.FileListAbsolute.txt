@@ -1,0 +1,16 @@
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\bin\Debug\net8.0\AvoiderUnity.deps.json
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\bin\Debug\net8.0\AvoiderUnity.dll
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\bin\Debug\net8.0\AvoiderUnity.pdb
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\bin\Debug\net8.0\UnityEngine.dll
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\bin\Debug\net8.0\UnityEngine.xml
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.AssemblyInfo.cs
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.sourcelink.json
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderU.2290386E.Up2Date
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.dll
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\refint\AvoiderUnity.dll
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\AvoiderUnity.pdb
+C:\Users\Alex\Documents\GitHub\Lab-Assignment-5\AvoiderUnity\AvoiderUnity\obj\Debug\net8.0\ref\AvoiderUnity.dll

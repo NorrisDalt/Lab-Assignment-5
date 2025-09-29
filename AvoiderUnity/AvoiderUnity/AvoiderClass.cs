@@ -39,7 +39,6 @@ namespace Avoider
                 RunAndHide();
         }
 
-        // ===== Visibility check using RaycastAll =====
         private void CheckVisibility()
         {
             Vector3 direction = (avoidee.transform.position - transform.position).normalized;
@@ -58,7 +57,6 @@ namespace Avoider
             }
         }
 
-        // ===== Run to closest valid hiding spot =====
         private void RunAndHide()
         {
             List<Vector3> candidates = GenerateHidingSpots();
@@ -82,7 +80,6 @@ namespace Avoider
             m_agent.SetDestination(bestSpot);
         }
 
-        // ===== Generate candidate hiding spots using Poisson-disc sampling =====
         private List<Vector3> GenerateHidingSpots()
         {
             List<Vector3> validSpots = new List<Vector3>();
@@ -105,7 +102,7 @@ namespace Avoider
             return validSpots;
         }
 
-        // ===== Draw Gizmos =====
+
         private void OnDrawGizmos()
         {
             if (!drawGizmos || avoidee == null) return;
@@ -114,7 +111,6 @@ namespace Avoider
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, detectionRange);
 
-            // Draw radial lines for hiding points
             int numPoints = 20; // number of lines
             float radius = 5f;  // distance of lines from avoider
 
@@ -126,15 +122,15 @@ namespace Avoider
                 Vector3 dir = (point - avoidee.transform.position).normalized;
                 float dist = Vector3.Distance(point, avoidee.transform.position);
 
-                bool hidden = false; // assume visible
+                bool hidden = false;
                 if (Physics.Raycast(avoidee.transform.position, dir, out RaycastHit hit, dist))
                 {
                     if (hit.transform != this.transform)
-                        hidden = true; // something is blocking, so it’s hidden
+                        hidden = true;
                 }
                 else
                 {
-                    hidden = true; // no hit at all → hidden
+                    hidden = true;
                 }
 
                 Gizmos.color = hidden ? Color.green : Color.red;
@@ -145,7 +141,7 @@ namespace Avoider
 
     }
 
-    // ===== Poisson-disc sampler helper class =====
+
     public class PoissonDiscSampler
     {
         private readonly float radius;

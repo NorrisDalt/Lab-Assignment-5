@@ -1,2 +1,1 @@
-# Lab Assignment 5
-
+README
